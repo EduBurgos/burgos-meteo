@@ -116,7 +116,7 @@ meteo --help
 
 ### Web app
 Apri `web/public/index.html` nel browser oppure visita la versione online:
-👉 **[burgos-meteo su Firebase](#)** *(link da aggiornare dopo il deploy)*
+👉 **[burgos-meteo.web.app](https://burgos-meteo.web.app)**
 
 ---
 
