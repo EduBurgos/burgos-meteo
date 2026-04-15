@@ -29,6 +29,18 @@ htmlcov/
 # Firebase
 .firebase/
 web/.firebase/
+web/.firebase
+
+# Claude Code
+.claude/
+
+# Screenshots, documenti e script di utilità esame
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.docx
+genera_doc.py
 
 # OS
 .DS_Store
