@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "meteo"
+version = "0.1.0"
+description = "App meteo con previsioni e grafici nel terminale"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "pydantic>=2.0",
+    "rich>=13.0",
+    "plotext>=5.0",
+    "typer>=0.12",
+]
+
+[project.scripts]
+meteo = "meteo.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["meteo*"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true

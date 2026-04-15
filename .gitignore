@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy / Ruff
+.mypy_cache/
+.ruff_cache/
+
+# Cache app
+.meteo_cache.json
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Firebase
+.firebase/
+web/.firebase/
+
+# OS
+.DS_Store
+Thumbs.db
